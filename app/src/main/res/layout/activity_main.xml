@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lxh.test.MainActivity">
+
+
+    <com.example.lxh.test.FinalSurfaceView
+        android:id="@+id/tv_lxh"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <com.example.lxh.test.MySurfaceView
+        android:id="@+id/mysurfaceview"
+        android:layout_below="@+id/tv_lxh"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
